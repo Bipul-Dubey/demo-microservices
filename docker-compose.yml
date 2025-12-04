@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  jokes-service:
+    build:
+      context: .
+      dockerfile: jokes-service/Dockerfile
+    ports:
+      - "3002:3002"
+
+  quotes-service:
+    build:
+      context: .
+      dockerfile: quotes-service/Dockerfile
+    ports:
+      - "3001:3001"
+
+  states-service:
+    build:
+      context: .
+      dockerfile: states-service/Dockerfile
+    ports:
+      - "3003:3003"    

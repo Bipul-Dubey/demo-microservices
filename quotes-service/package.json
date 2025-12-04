@@ -1,0 +1,16 @@
+{
+  "name": "quotes-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "utils": "file:../node-utils",
+    "express": "^5.2.1"
+  }
+}
